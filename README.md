@@ -11,9 +11,8 @@ However, manual testing allows the tester to realistically test the software, us
 ## 2. What are the advantages and Disadvantages of Manual Testing?
 
 Advantages of Manual Testing 
-
-    Preferable for products with a short life cycle.
-    Saves time, money, and resources.
+   Preferable for products with a short life cycle.
+   Saves time, money, and resources.
     Ensure the error-free product.
     Usable for exploratory testing, ad hoc testing, and usability testing.
     No need to change the entire code to make minor changes. 
@@ -25,7 +24,6 @@ Advantages of Manual Testing
     Easy to learn for new testers.
 
 Disadvantages of Manual Testing
-
     Not suitable for time-bounded projects and large organizations  
     More prone to human errors and mistakes 
     Less efficient as the choice of recording the testing process is not available 
@@ -38,14 +36,12 @@ Disadvantages of Manual Testing
 ## 3. Name some of the manual testing tools.
 
 Some of the top manual testing tools include:
-
     Postman
     Message queue monitors
     DB tools, etc.
 ## 4. What types of manual testing are there?
 
 In the course of the test life cycle, there are different manual testing types or manual testing techniques that may be used. Following is a list of them:
-
     Black Box Testing
     White Box Testing
     Unit Testing
@@ -58,7 +54,6 @@ In the course of the test life cycle, there are different manual testing types o
 The manual tester is a professional who conducts quality checks on software applications without using automation tools or scripting. In essence, the speciality involves manually checking software for errors and fixing them. Manual testers must have the appropriate skills and be able to meet the company's requirements.
 
 Manual Tester Roles and Responsibilities
-
     Analyzing client requirements.
     Reviewing written code for compliance with project specifications.
     Creating a test environment for executing test cases.
@@ -71,7 +66,6 @@ Manual Tester Roles and Responsibilities
 6. Describe the manual testing process.
 
 Among the steps involved in manual testing are:
-
     Requirement analysis
     Test plan creation
     Design test scenarios and test cases
@@ -82,7 +76,6 @@ Among the steps involved in manual testing are:
 ## 7. Can you tell me what the different levels of manual testing are?
 
 Different levels of testing can be carried out during the development process. Multilevel testing facilitates the identification of bugs early in the development process. The four levels of testing are as follows:
-
     Unit testing: Essentially, it is a way of testing logically isolated pieces of code within a system called units. Mainly, it focuses on the standalone module's functional accuracy.
     Integration Testing: Software testing at this level involves combining and testing individual units to see if they work together as they should. This test focuses on the interface between modules.
     System Testing: It involves testing all components of the product as a whole to ensure that overall product requirements are met. The types of system testing include regression testing, usability testing, and functional testing.
@@ -91,7 +84,6 @@ Different levels of testing can be carried out during the development process. M
 ## 8. In order to perform manual testing, what skills are required?
 
 The following are the important manual testing skills to acquire:
-
     Detail-oriented and able to report test results in a professional manner.
     A strong analytical ability.
     Ability to perform technical testing.
@@ -101,30 +93,23 @@ The following are the important manual testing skills to acquire:
     An understanding of test management tools, test tracking tools, and testing techniques.
 
 ## 9. What is test coverage?
-
 Test coverage is a metric that indicates how much of the source code is covered by the tests, allowing the tester to verify the quality of their testing. Testers can use it to determine whether they're testing everything they're supposed to. Depending on the way people approach testing, test coverage can mean different things to different people.
-
     Product: It means looking at test coverage to answer the question: Which features or areas of the software do your tests cover?
     Requirements: The software might work well, but it's not useful to the customer if it doesn't satisfy their needs. Requirements coverage indicates how many of the requirements are tested.
     Source Code: This is usually a developer's domain and is a white-box testing technique. The developer can check how much of their source code is covered by the unit tests.
 
 ## 10. Name some methods that can be used in code coverage.
-
 Code coverage is a software testing metric that measures how many blocks, lines, or arcs of code are executed when a test suite runs. Code coverage can be determined by several methods, including:
-
     Statement Coverage.
     Decision Coverage.
     Branch Coverage.
     Toggle Coverage.
 
 ## 11. Define Latent Defect.
-
 Latent defect, as the name suggests, is a type of defect or bug which has been in the software system for a long time but is discovered now. A latent defect is an existing defect that can be found effectively with inspections. It usually remains hidden or dormant and is a low-priority defect.
 
 ## 12. Name some attributes of the test case. 
-
 There are various attributes of test cases that make them more reliable, clear, and concise, avoiding any sort of redundancy. Some of them are given below: 
-
     Test Case Id: Unique identifier of the test case.
     Test Summary: One-liner summary of the test case.
     Description: Detailed description of the test case.
@@ -137,86 +122,67 @@ There are various attributes of test cases that make them more reliable, clear, 
     Automation Status: Identifier for automation.
     Date: Test execution date.
     Executed By: Person name executing the test case
-## 13. What is Positive and Negative Testing?
-
-    Positive Testing: It is a type of testing process where a software application is validated against the valid data sets as input. It is simply used to check whether the application does what it is supposed to do or not.     
     
+## 13. What is Positive and Negative Testing?
+    Positive Testing: It is a type of testing process where a software application is validated against the valid data sets as input. It is simply used to check whether the application does what it is supposed to do or not.    
     Negative Testing: It is a type of testing process where a software application is validated against invalid data sets as input. It is simply used to check whether the system shows an error when it is supposed to do or not. In test case execution, negative testing is considered a very crucial factor.
 
 ## 14. What is UAT (User Acceptance Testing)?
-
 A user acceptance test, also known as an end-user test, is a testing methodology undertaken by the client or end-user to approve the production release. As the last step in the SDLC, it takes place only after testing the software thoroughly. This tool is primarily used to validate end-to-end business processes. It verifies whether or not the developed software is ready to float into the market.
 
 ## 15. Explain Test Driver and Test Stub. 
-
-A test driver and a test stub are both types of test harnesses that simulate an environment for testing a module or component. Both are dummy modules designed specifically for testing. 
-
+A test driver and a test stub are both types of test harnesses that simulate an environment for testing a module or component. Both are dummy modules designed specifically for testing.
     Test stubs: A test stub is used in a top-down testing approach and allows testing of the upper levels of code when the lower code levels have not been developed yet. It serves as a 'called program' when subprograms are being developed. 
     Test drivers: A test driver is used in a bottom-up testing approach and allows testing of the lower levels of the code when the upper code levels have not been developed yet. It serves as a 'called program' when main programs are being developed.
 
 ## 16. What is the importance of Localization Testing?
-
 In localization testing, a software product is tested to ensure whether it offers full functionality and usability within a specific locale. Simply, it verifies the content's accuracy and suitability. In addition to linguistics, it addresses traditions, common herd behaviour, and other similar factors. Generally, it deals with the application's functionality and GUI.
 
-## 17. What do you mean by Baseline Testing and Benchmark testing?    
-    
-
+## 17. What do you mean by Baseline Testing and Benchmark testing?
     Baseline Testing: It is a type of non-functional testing in which a set of tests are run to capture performance information. Using this gathered information, we can make required changes in the application and ultimately improve the performance and capabilities of the application. Generally, it refers to a benchmark that is used as a starting point for new works. This testing uncovers and resolves many errors.
     Benchmark Testing: It is a type of testing that involves both the developers and DBAs (Database Administrators) to determine current performance information. Using this information, one can improve the performance of the same by matching it with the benchmarks (industry standards). Its main objective is to compare the present and future software releases with their specific benchmark.
 
 ## 18. Describe what Fuzz Testing is and how important it is.
-
 Fuzz testing is a software testing technique that uses a lot of random data, called fuzz, as input to find or detect security loopholes and coding errors in a software application. This is more useful for larger projects, but it only detects serious faults or defects. It is simply used to check the vulnerability of software and gives more effective results when used with beta testing, black box testing, etc.
 
-
 ## 19. Explain Configuration Testing.
-
 Configuration testing is a software testing technique that is used to evaluate the configurational requirements of the software. It discovers the optimal configuration of the system under which the application performs at its best, therefore configuration testing is considered important. It also helps in identifying and resolving any compatibility issues.
+
 ## 20. Name two parameters that can be useful to check the quality of test execution.
-
 Two parameters required to check the quality of test execution include: 
-
     Defect leakage ratio: It represents the ratio of total potential rejections to the total overall production.
     Defect reject ratio: It represents the ratio of total rejections to the total overall production.
 
 ## 21. What is API testing?
-
 An API (Application Programming Interface) test involves testing API directly and as part of an integration test to ensure they meet reliable, functional, performance, and security requirements. Due to the lack of a GUI, APIs are tested at the message layer. The tester writes code that makes an API request to the server that provides the API, provides the required inputs, collects the output from the response, and matches the actual output with the expected output.
 
 API testing primarily concerns the business logic of the software that’s exposing the API. It does not involve the look and feel, accessibility, or usability of the software. API testing can be automated to make it repeatable and reproducible each time they run.
-## 22. Explain use-case testing.
 
+## 22. Explain use-case testing.
 Use-case testing is basically a technique for developers and testers to identify test cases that exercise the entire system right from the very beginning to the very end of each transaction. Generally, it is part of black-box testing, which is used to develop tests or systems that achieve acceptable performance levels.
 
-##23. Explain Path testing.
-
+## 23. Explain Path testing.
 A path test is a type of test designed specifically for designing test cases. It involves the use of a control flow chart designed specifically to identify a set of linearly independent paths of execution leading to the completion of a program. The main objective of this process is to ensure that all paths are covered and executed well. In addition, it reduces or minimizes the likelihood of redundant tests occurring.
 
 ## 24. Explain Endurance Testing or Soak Testing?
-
 Endurance testing, also known as Soak testing, is a type of performance testing usually performed to check the performance of the system that is under constant use. Its main purpose is to determine whether a system can sustain a continuous high load or not. Memory utilization is also monitored to identify potential leaks during this testing. Some of the endurance testing tools include:
-
     WebLOAD
     LoadUI
     OpenSTA
     LoadComplete
     Apache JMeter, etc.
 Manual Testing Interview Questions for Experienced
-## 25. Explain the term testbed.
 
+## 25. Explain the term testbed.
 Testbed is generally referred to as a digital platform that is used for testing an application. It includes an operating system, database,  hardware, network configuration, software application under test, and all other software-related issues.
 
 ## 26. Explain bugs, defects, and errors.
-
     Error: The error occurs when there is a programming mistake in the code that prevents the program from executing or compiling.
     Defect: A defect is any variation between the actual result and the expected result determined by a tester or developer. Defects are typically detected after the product enters production and are resolved only during the development phase.
     Bug: A software bug is detected during the testing phase as a fault or mismatch. This affects the functionality and performance of the software.
 
 ## 27. What is the software testing life cycle?
-
 STLC (Software Testing Life Cycle) is a fundamental part of SDLC which is used to test software and ensure that the quality standards are met. Verification and validation are generally involved in this process. In this, different activities are executed in a specific order throughout the software testing process.  
-
-
     Requirement Analysis: ​​The QA team analyzes the requirements to determine what we are going to test and what the testable requirements are.
     Test Planning: This phase involves defining the test strategy. This step determines the project's objective and scope.
     Test Case Development: This stage involves defining and developing detailed test cases. Test data is also prepared by the testing team for testing.
@@ -230,7 +196,6 @@ In black-box testing, the tester views the software as a black box, ignoring all
 As part of black-box testing, test conditions are created based on the software's functionality without knowing how it works internally. In this approach, the software is tested from the point of view of the end-user and provides a broader view of the entire system. In light of the fact that users are only concerned with whether the software meets their needs, rather than how it works, black-box testing is an excellent way to test software usability and anticipate how customers will use it.
 
 ## 29. What white-box testing?
-
 White-box testing is an alternative to black-box testing that involves viewing the system as a transparent box. It is possible for the testers to observe the internal implementation of the system, which helps them conduct the test. In most cases, white-box testing is performed by the software developers during the development process.
 
 It is also referred to as closed-box testing.
@@ -238,20 +203,16 @@ It is also referred to as closed-box testing.
 In white-box testing, we assume that the tester has some programming knowledge. The test covers all possible branches a program could follow in a running system. The more you know about the inside of a system, such as its source code and implementation details, the more thoroughly you can test it
 
 ## 30. What do you mean by Critical bug?
-
 The term critical bug refers to a bug that affects the majority of an application's functionality. When a critical defect occurs, testing cannot proceed until the defect is fixed. These block the functionality of an entire system or module. An application returning a server error message after an attempt to log in is an example of a critical defect.
 
 ## 31. What do you mean by Data flow testing?
-
-Data flow testing involves analyzing the flow of data within a program. It is a type of structural testing. It is possible, thus, for a programmer to perform various tests on data values and variables. This method provides a way to identify the variables that are used at every stage of the program's control flow. It helps us in the following ways: 
-
+Data flow testing involves analyzing the flow of data within a program. It is a type of structural testing. It is possible, thus, for a programmer to perform various tests on data values and variables. This method provides a way to identify the variables that are used at every stage of the program's control flow. It helps us in the following ways:
     Eliminate or remove variables that are never used after being declared.
     Pinpoint variables that are used but never declared.
     Deallocate variable before it is used.
     Pinpoint variables that are defined multiple times before it is used
   
 ## 32. What is the term ‘quality’ mean when testing?
-
 In general, quality software is usually free of bugs, is delivered on time and on budget, meets most of the requirements and/or expectations, and is easy to maintain. However, 'quality' is a subjective concept. A lot depends on whom the "customer" is as well as the extent to which they are influential in general. For instance, a user may define quality as user-friendliness and bug-free while an accounting department might define quality as profits
 
 ## 33. What is the role of documentation in manual testing?
