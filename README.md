@@ -3,7 +3,7 @@ In the fields of software and hardware, testing is a vast field, and it is an ab
 Now let's take a look at some frequently asked Manual Testing interview questions which are categorised in the following sections:
    - [Manual Testing Interview Questions for Freshers](https://github.com/HannachiHassen/Manual-Testing-Interview-Questions-Freshers/tree/main/README.md#manual-testing-interview-questions-freshers)
    - [Manual Testing Interview Questions for Experienced](https://github.com/HannachiHassen/Manual-Testing-Interview-Questions-Freshers/tree/main/README.md#manual-testing-interview-questions-for-experienced)
-   - [Real Time Interview Questions on Manual Testing](https://github.com/HannachiHassen/Manual-Testing-Interview-Questions-Freshers/tree/main/README.md#manual-testing-interview-questions-for-experienced)
+   - [Real Time Interview Questions on Manual Testing](https://github.com/HannachiHassen/Manual-Testing-Interview-Questions-Freshers/tree/main#real-time-interview-questions-on-manual-testing--scenario-based)
 
 # Manual-Testing-Interview-Questions-Freshers
 
