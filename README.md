@@ -1,9 +1,9 @@
 In the fields of software and hardware, testing is a vast field, and it is an absolute necessity before any product or software is launched. Software testing measures the quality, correctness, and completeness of developed software. Software Testing encompasses a wide range of disciplines, but can broadly be divided into two categories - manual testing and automated testing. Manual testing plays an integral part in the field of software development since automation testing isn't applicable to every scenario.
 
 Now let's take a look at some frequently asked Manual Testing interview questions which are categorised in the following sections:
-   - [Manual Testing Interview Questions for Freshers](https://github.com/HannachiHassen/Manual-Testing-Interview-Questions-Freshers/edit/main/README.md#manual-testing-interview-questions-freshers)
-   - [Manual Testing Interview Questions for Experienced](https://github.com/HannachiHassen/Manual-Testing-Interview-Questions-Freshers/edit/main/README.md#manual-testing-interview-questions-for-experienced)
-   - [Real Time Interview Questions on Manual Testing](https://github.com/HannachiHassen/Manual-Testing-Interview-Questions-Freshers/edit/main/README.md#manual-testing-interview-questions-for-experienced)
+   - [Manual Testing Interview Questions for Freshers](https://github.com/HannachiHassen/Manual-Testing-Interview-Questions-Freshers/tree/main/README.md#manual-testing-interview-questions-freshers)
+   - [Manual Testing Interview Questions for Experienced](https://github.com/HannachiHassen/Manual-Testing-Interview-Questions-Freshers/tree/main/README.md#manual-testing-interview-questions-for-experienced)
+   - [Real Time Interview Questions on Manual Testing](https://github.com/HannachiHassen/Manual-Testing-Interview-Questions-Freshers/tree/main/README.md#manual-testing-interview-questions-for-experienced)
 
 # Manual-Testing-Interview-Questions-Freshers
 
