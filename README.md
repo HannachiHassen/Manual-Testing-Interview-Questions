@@ -1,5 +1,7 @@
 # Manual-Testing-Interview-Questions-Freshers
 
+In the fields of software and hardware, testing is a vast field, and it is an absolute necessity before any product or software is launched. Software testing measures the quality, correctness, and completeness of developed software. Software Testing encompasses a wide range of disciplines, but can broadly be divided into two categories - manual testing and automated testing. Manual testing plays an integral part in the field of software development since automation testing isn't applicable to every scenario.
+
 ## 1. What is Manual Testing?
 
 In manual testing, a tester manually verifies the functionality of the software. The tester has a comprehensive list of all the manual testing test cases they should test, along with the test data. They go through each case, one by one. They launch the software as an end-user would, enter the input, and manually verify the output.
