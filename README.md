@@ -314,7 +314,9 @@ The pesticide paradox is basically a phenomenon where the more one tests the sof
 The use of these methods can lead to finding more defects in the areas where defect levels have declined.
 Real Time Interview Questions on Manual Testing ( Scenario Based)
 
-## 21. When to choose manual testing over automation testing and vice versa?
+# Real Time Interview Questions on Manual Testing ( Scenario Based)
+
+## 1. When to choose manual testing over automation testing and vice versa?
 
 Choosing Manual Testing over Automation Testing
   - When test cases need to be run for a short duration of time (once or twice). 
@@ -332,7 +334,7 @@ Choosing Automation Testing over Manual Testing:
   - When tests involve repetitive steps. 
   - When there are multiple and quick deployments for the product, the manual becomes very time taking and redundant.
 
-## 22. In what way will you determine when to stop testing?
+## 2. In what way will you determine when to stop testing?
 
 Testing can be quite challenging when it comes to determining when to stop. In the modern world, many software applications are so complex and run in so many interdependent environments, that complete testing is impossible. The following factors are often considered when deciding when to stop testing:
    - If deadlines are met (release deadlines, testing deadlines, etc.) and there are no high-priority issues left in the system.
@@ -343,7 +345,7 @@ Testing can be quite challenging when it comes to determining when to stop. In t
    - If the bug rate drops below a certain level.
    - After the Beta or Alpha testing period has ended.
 
-## 23. Can 100% testing coverage be achieved? How do you ensure test coverage?
+## 3. Can 100% testing coverage be achieved? How do you ensure test coverage?
 
 Testing a product 100% is considered impossible. You can, however, get closer to your goal by following the steps below.
   - Developing an effective testing strategy.
@@ -353,11 +355,11 @@ Testing a product 100% is considered impossible. You can, however, get closer to
   - Identify the risks associated with the application.
   - Utilize automated testing.
 
-## 24. System testing can be done at any stage. Yes or No?
+## 4. System testing can be done at any stage. Yes or No?
 
 No, system testing cannot be conducted at any stage of the development process. In system testing, all components of the software are tested together to ensure that the overall product meets the specified specifications. Therefore, system testing cannot take place at any stage; instead, it must be done only after all modules or units are in place and are working properly, but before User Acceptance Testing (UAT).
 
-## 25. If proper documentation is not available for testing, what steps will you take to overcome the challenge?
+## 5. If proper documentation is not available for testing, what steps will you take to overcome the challenge?
 
 QAs should refer to the following references if they cannot find standard documents such as System Requirements Specification or Feature Description Document.
   - Screenshots
@@ -368,7 +370,7 @@ In addition, having discussions with the business analyst and the developer is a
 
 Another option for verifying the application's functionality is to perform smoke testing. This would expose a few very basic bugs in the application. In cases where none of the above options work, we can simply use our previous experience to test the software application.
 
-## 26. What are some best practices that you should follow when writing test cases?
+## 6. What are some best practices that you should follow when writing test cases?
 
 When writing test cases, you should follow the following guidelines:
  - Assess the project's risks and deadlines before planning and prioritizing test cases and write accordingly.
@@ -381,11 +383,11 @@ When writing test cases, you should follow the following guidelines:
  - Manage a stable release cycle by using a test management tool.
  - Keep track of your test cases on a regular basis. Test cases must be unique and irrelevant or duplicated must be removed.
 
-## 27. When the requirements are still in flux, what is the best way to test a product?
+## 7. When the requirements are still in flux, what is the best way to test a product?
 
 For some products, a requirement stack is not available. It may require considerable effort to identify if an application has unexpected functionality, which indicates a deeper problem with the software development process. Removing functionality that isn't necessary for the purpose of the application is a good idea. Otherwise, create a test plan based on the assumptions you've made about the product. But, it is important that you thoroughly document all assumptions in the test plan.
 
-## 28. What makes boundary value analysis a good method for providing test cases?
+## 8. What makes boundary value analysis a good method for providing test cases?
 
 A boundary value analysis is defined as a software testing technique that uses the boundary values of equivalence classes as input to test cases. Black box testing uses boundary value analysis as one of the most commonly used case design techniques.  
 
@@ -398,6 +400,6 @@ Example: Assume you're testing an input box accepting numbers from 1 to 20. As a
 
 Therefore, the boundary values are 0, 1, 2, and 19, 20, 21.
 
-## 29. How do you know the code has met specifications?
+## 9. How do you know the code has met specifications?
 
 Code that is maintainable, readable, and bug-free is considered good.  Almost every organization has 'coding standards' that developers should adhere to, but everyone has different ideas about what's best and what's too many or too few. Many tools are available that ensure that test cases map to requirements, such as traceability matrixes. In the event that all test cases are successfully executed, then the code fulfils the requirement.
