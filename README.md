@@ -48,6 +48,7 @@ Some of the top manual testing tools include:
  - DB tools, etc.
 
 ## 4. What types of manual testing are there?
+![manual](/README/types_of_manual_testing.png)
 
 In the course of the test life cycle, there are different manual testing types or manual testing techniques that may be used. Following is a list of them:
  - Black Box Testing
@@ -73,6 +74,8 @@ Manual Tester Roles and Responsibilities
 - Keeping in touch with the test manager, etc
 
 ## 6. Describe the manual testing process.
+![](/README/manual_testing_process.png)
+
 Among the steps involved in manual testing are:
  - Requirement analysis
  - Test plan creation
@@ -82,6 +85,7 @@ Among the steps involved in manual testing are:
  - Test closure activities
 
 ## 7. Can you tell me what the different levels of manual testing are?
+![level](/README/levels_of_testing.png)
 
 Different levels of testing can be carried out during the development process. Multilevel testing facilitates the identification of bugs early in the development process. The four levels of testing are as follows:
  - Unit testing: Essentially, it is a way of testing logically isolated pieces of code within a system called units. Mainly, it focuses on the standalone module's functional accuracy.
@@ -132,8 +136,13 @@ There are various attributes of test cases that make them more reliable, clear, 
  - Executed By: Person name executing the test case
     
 ## 13. What is Positive and Negative Testing?
- - Positive Testing: It is a type of testing process where a software application is validated against the valid data sets as input. It is simply used to check whether the application does what it is supposed to do or not.    
- - Negative Testing: It is a type of testing process where a software application is validated against invalid data sets as input. It is simply used to check whether the system shows an error when it is supposed to do or not. In test case execution, negative testing is considered a very crucial factor.
+ - **Positive Testing**: It is a type of testing process where a software application is validated against the valid data sets as input. It is simply used to check whether the application does what it is supposed to do or not.   
+ 
+ ![](/README/Positive_Testing.png) 
+ 
+ - **Negative Testing**: It is a type of testing process where a software application is validated against invalid data sets as input. It is simply used to check whether the system shows an error when it is supposed to do or not. In test case execution, negative testing is considered a very crucial factor.
+ 
+![](/README/Negative_Testing.png) 
 
 ## 14. What is UAT (User Acceptance Testing)?
 
