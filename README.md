@@ -163,6 +163,7 @@ In localization testing, a software product is tested to ensure whether it offer
 
 ## 18. Describe what Fuzz Testing is and how important it is.
 Fuzz testing is a software testing technique that uses a lot of random data, called fuzz, as input to find or detect security loopholes and coding errors in a software application. This is more useful for larger projects, but it only detects serious faults or defects. It is simply used to check the vulnerability of software and gives more effective results when used with beta testing, black box testing, etc.
+![](/README/Fuzz_testing.png)
 
 ## 19. Explain Configuration Testing.
 Configuration testing is a software testing technique that is used to evaluate the configurational requirements of the software. It discovers the optimal configuration of the system under which the application performs at its best, therefore configuration testing is considered important. It also helps in identifying and resolving any compatibility issues.
@@ -183,6 +184,8 @@ Use-case testing is basically a technique for developers and testers to identify
 ## 23. Explain Path testing.
 A path test is a type of test designed specifically for designing test cases. It involves the use of a control flow chart designed specifically to identify a set of linearly independent paths of execution leading to the completion of a program. The main objective of this process is to ensure that all paths are covered and executed well. In addition, it reduces or minimizes the likelihood of redundant tests occurring.
 
+![](/README/Draw_testing.png)
+
 ## 24. Explain Endurance Testing or Soak Testing?
 Endurance testing, also known as Soak testing, is a type of performance testing usually performed to check the performance of the system that is under constant use. Its main purpose is to determine whether a system can sustain a continuous high load or not. Memory utilization is also monitored to identify potential leaks during this testing. Some of the endurance testing tools include:
  - WebLOAD
@@ -191,11 +194,14 @@ Endurance testing, also known as Soak testing, is a type of performance testing 
  - LoadComplete
  - Apache JMeter, etc.
 
+![](/README/Endurance_Testing.png)
 
 ## Manual Testing Interview Questions for Experienced
 
 ## 1. Explain the term testbed.
 Testbed is generally referred to as a digital platform that is used for testing an application. It includes an operating system, database,  hardware, network configuration, software application under test, and all other software-related issues.
+
+![](/README/testbed.png)
 
 ## 2. Explain bugs, defects, and errors.
   - Error: The error occurs when there is a programming mistake in the code that prevents the program from executing or compiling.
