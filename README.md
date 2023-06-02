@@ -88,10 +88,10 @@ Among the steps involved in manual testing are:
 ![level](/README/levels_of_testing.png)
 
 Different levels of testing can be carried out during the development process. Multilevel testing facilitates the identification of bugs early in the development process. The four levels of testing are as follows:
- - Unit testing: Essentially, it is a way of testing logically isolated pieces of code within a system called units. Mainly, it focuses on the standalone module's functional accuracy.
- - Integration Testing: Software testing at this level involves combining and testing individual units to see if they work together as they should. This test focuses on the interface between modules.
- - System Testing: It involves testing all components of the product as a whole to ensure that overall product requirements are met. The types of system testing include regression testing, usability testing, and functional testing.
- - User Acceptance Testing: Acceptance testing, also known as UAT (User Acceptance Testing), is the final step in the software testing process. This test determines if the software is ready for release.
+ - **Unit testing**: Essentially, it is a way of testing logically isolated pieces of code within a system called units. Mainly, it focuses on the standalone module's functional accuracy.
+ - **Integration Testing**: Software testing at this level involves combining and testing individual units to see if they work together as they should. This test focuses on the interface between modules.
+ - **System Testing**: It involves testing all components of the product as a whole to ensure that overall product requirements are met. The types of system testing include regression testing, usability testing, and functional testing.
+ - **User Acceptance Testing**: Acceptance testing, also known as UAT (User Acceptance Testing), is the final step in the software testing process. This test determines if the software is ready for release.
 
 ## 8. In order to perform manual testing, what skills are required?
 
@@ -106,9 +106,9 @@ The following are the important manual testing skills to acquire:
 
 ## 9. What is test coverage?
 Test coverage is a metric that indicates how much of the source code is covered by the tests, allowing the tester to verify the quality of their testing. Testers can use it to determine whether they're testing everything they're supposed to. Depending on the way people approach testing, test coverage can mean different things to different people.
-  - Product: It means looking at test coverage to answer the question: Which features or areas of the software do your tests cover?
-  - Requirements: The software might work well, but it's not useful to the customer if it doesn't satisfy their needs. Requirements coverage indicates how many of the requirements are tested.
-  - Source Code: This is usually a developer's domain and is a white-box testing technique. The developer can check how much of their source code is covered by the unit tests.
+  - **Product**: It means looking at test coverage to answer the question: Which features or areas of the software do your tests cover?
+  - **Requirements**: The software might work well, but it's not useful to the customer if it doesn't satisfy their needs. Requirements coverage indicates how many of the requirements are tested.
+  - **Source Code**: This is usually a developer's domain and is a white-box testing technique. The developer can check how much of their source code is covered by the unit tests.
 
 ## 10. Name some methods that can be used in code coverage.
 Code coverage is a software testing metric that measures how many blocks, lines, or arcs of code are executed when a test suite runs. Code coverage can be determined by several methods, including:
@@ -122,18 +122,18 @@ Latent defect, as the name suggests, is a type of defect or bug which has been i
 
 ## 12. Name some attributes of the test case. 
 There are various attributes of test cases that make them more reliable, clear, and concise, avoiding any sort of redundancy. Some of them are given below: 
- - Test Case Id: Unique identifier of the test case.
- - Test Summary: One-liner summary of the test case.
- - Description: Detailed description of the test case.
- - Prerequisite or pre-condition: Set of conditions to be followed before implementing the test steps.
- - Test Steps: Detailed steps for performing test cases.
- - Test Data: Test data value used in the test case.
- - Expected Result: Estimated result to pass the test.
- - Actual Result: Actual result after executing the test steps.
- - Test Result: Status of the test execution (Pass or Fail).
- - Automation Status: Identifier for automation.
- - Date: Test execution date.
- - Executed By: Person name executing the test case
+ - **Test Case Id**: Unique identifier of the test case.
+ - **Test Summary**: One-liner summary of the test case.
+ - **Description**: Detailed description of the test case.
+ - **Prerequisite** or **pre-condition**: Set of conditions to be followed before implementing the test steps.
+ - **Test Steps**: Detailed steps for performing test cases.
+ - **Test Data**: Test data value used in the test case.
+ - **Expected Result**: Estimated result to pass the test.
+ - **Actual Result**: Actual result after executing the test steps.
+ - **Test Result**: Status of the test execution (Pass or Fail).
+ - **Automation Status**: Identifier for automation.
+ - **Date**: Test execution date.
+ - **Executed By**: Person name executing the test case
     
 ## 13. What is Positive and Negative Testing?
  - **Positive Testing**: It is a type of testing process where a software application is validated against the valid data sets as input. It is simply used to check whether the application does what it is supposed to do or not.   
@@ -151,15 +151,15 @@ A user acceptance test, also known as an end-user test, is a testing methodology
 ## 15. Explain Test Driver and Test Stub.
 
 A test driver and a test stub are both types of test harnesses that simulate an environment for testing a module or component. Both are dummy modules designed specifically for testing.
- - Test stubs: A test stub is used in a top-down testing approach and allows testing of the upper levels of code when the lower code levels have not been developed yet. It serves as a 'called program' when subprograms are being developed. 
- - Test drivers: A test driver is used in a bottom-up testing approach and allows testing of the lower levels of the code when the upper code levels have not been developed yet. It serves as a 'called program' when main programs are being developed.
+ - **Test stubs**: A test stub is used in a top-down testing approach and allows testing of the upper levels of code when the lower code levels have not been developed yet. It serves as a 'called program' when subprograms are being developed. 
+ - **Test drivers**: A test driver is used in a bottom-up testing approach and allows testing of the lower levels of the code when the upper code levels have not been developed yet. It serves as a 'called program' when main programs are being developed.
 
 ## 16. What is the importance of Localization Testing?
 In localization testing, a software product is tested to ensure whether it offers full functionality and usability within a specific locale. Simply, it verifies the content's accuracy and suitability. In addition to linguistics, it addresses traditions, common herd behaviour, and other similar factors. Generally, it deals with the application's functionality and GUI.
 
 ## 17. What do you mean by Baseline Testing and Benchmark testing?
-- Baseline Testing: It is a type of non-functional testing in which a set of tests are run to capture performance information. Using this gathered information, we can make required changes in the application and ultimately improve the performance and capabilities of the application. Generally, it refers to a benchmark that is used as a starting point for new works. This testing uncovers and resolves many errors.
-- Benchmark Testing: It is a type of testing that involves both the developers and DBAs (Database Administrators) to determine current performance information. Using this information, one can improve the performance of the same by matching it with the benchmarks (industry standards). Its main objective is to compare the present and future software releases with their specific benchmark.
+- **Baseline Testing**: It is a type of non-functional testing in which a set of tests are run to capture performance information. Using this gathered information, we can make required changes in the application and ultimately improve the performance and capabilities of the application. Generally, it refers to a benchmark that is used as a starting point for new works. This testing uncovers and resolves many errors.
+- **Benchmark Testing**: It is a type of testing that involves both the developers and DBAs (Database Administrators) to determine current performance information. Using this information, one can improve the performance of the same by matching it with the benchmarks (industry standards). Its main objective is to compare the present and future software releases with their specific benchmark.
 
 ## 18. Describe what Fuzz Testing is and how important it is.
 Fuzz testing is a software testing technique that uses a lot of random data, called fuzz, as input to find or detect security loopholes and coding errors in a software application. This is more useful for larger projects, but it only detects serious faults or defects. It is simply used to check the vulnerability of software and gives more effective results when used with beta testing, black box testing, etc.
@@ -204,9 +204,9 @@ Testbed is generally referred to as a digital platform that is used for testing 
 ![](/README/testbed.png)
 
 ## 2. Explain bugs, defects, and errors.
-  - Error: The error occurs when there is a programming mistake in the code that prevents the program from executing or compiling.
-  - Defect: A defect is any variation between the actual result and the expected result determined by a tester or developer. Defects are typically detected after the product enters production and are resolved only during the development phase.
- - Bug: A software bug is detected during the testing phase as a fault or mismatch. This affects the functionality and performance of the software.
+  - **Error**: The error occurs when there is a programming mistake in the code that prevents the program from executing or compiling.
+  - **Defect**: A defect is any variation between the actual result and the expected result determined by a tester or developer. Defects are typically detected after the product enters production and are resolved only during the development phase.
+ - **Bug**: A software bug is detected during the testing phase as a fault or mismatch. This affects the functionality and performance of the software.
 
 ## 3. What is the software testing life cycle?
 STLC (Software Testing Life Cycle) is a fundamental part of SDLC which is used to test software and ensure that the quality standards are met. Verification and validation are generally involved in this process. In this, different activities are executed in a specific order throughout the software testing process.  
