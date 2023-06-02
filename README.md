@@ -252,14 +252,14 @@ In general, quality software is usually free of bugs, is delivered on time and o
 
 Effective software testing relies heavily on documentation. Documentation should include details such as requirements specifications, business rules, configurations, designs, test plans, code changes, test cases, bug reports, inspection reports, user manuals, etc. As part of software testing, the following documentation artifacts are commonly applied:
 
- - Test Plan: It is essentially a dynamic document controlled and monitored by the testing manager. A well-written test plan that describes the scope and activities of software testing is crucial for the success of a testing project. In essence, it serves as a blueprint for all aspects of the testing process, such as what, when, how, and more.
-  - Test Scenario: A test scenario is a detailed description of a set of test cases or use cases. It involves testing a software application from the end user's perspective. It is usually the basis for constructing lower-level test cases or use cases. The test scenario can also be referred to as the test condition or the testing possibility. Taking a look at it will help you understand what we need to test.
-  - Test Case: As the name implies, a test case is a document that contains test data, expected results, preconditions, and postconditions. The purpose of this document is to ensure the software product meets the specific requirements for a specific test scenario. Manual testing involves executing test cases manually by a tester without relying on automated tools. In the process of developing test cases, it is possible to identify loopholes in the specifications.
-  - Traceability Matrix: This is a document, usually contained in a form table, that illustrates the relationship between requirements and other project artifacts from start to finish. To put it simply, it maps customer requirements to test cases.
+ - **Test Plan**: It is essentially a dynamic document controlled and monitored by the testing manager. A well-written test plan that describes the scope and activities of software testing is crucial for the success of a testing project. In essence, it serves as a blueprint for all aspects of the testing process, such as what, when, how, and more.
+  - **Test Scenario**: A test scenario is a detailed description of a set of test cases or use cases. It involves testing a software application from the end user's perspective. It is usually the basis for constructing lower-level test cases or use cases. The test scenario can also be referred to as the test condition or the testing possibility. Taking a look at it will help you understand what we need to test.
+  - **Test Case**: As the name implies, a test case is a document that contains test data, expected results, preconditions, and postconditions. The purpose of this document is to ensure the software product meets the specific requirements for a specific test scenario. Manual testing involves executing test cases manually by a tester without relying on automated tools. In the process of developing test cases, it is possible to identify loopholes in the specifications.
+  - **Traceability Matrix**: This is a document, usually contained in a form table, that illustrates the relationship between requirements and other project artifacts from start to finish. To put it simply, it maps customer requirements to test cases.
 
 ## 10. Explain RTM (Requirement Traceability Matrix).
 
-The RTM (Requirements Traceability Matrix) is defined as a tool used to identify and track the requirements and deliverables of a project. This is accomplished by establishing a thread for each component.  In addition, it manages the overall requirements of the project. There is nothing complicated about this method, and anyone can do it.
+The **RTM (Requirements Traceability Matrix)** is defined as a tool used to identify and track the requirements and deliverables of a project. This is accomplished by establishing a thread for each component.  In addition, it manages the overall requirements of the project. There is nothing complicated about this method, and anyone can do it.
 
 RTMs come in many forms. A test matrix, for example, proves that tests were conducted. Additionally, it can be used during the software development process to identify issues and requirements.
 
@@ -276,20 +276,20 @@ The agile testing process involves software testing that adheres to agile softwa
 
 ## 12. What is the difference between Regression and Retesting?
 
-  - Regression Testing: Regression testing, also known as generic testing, revolves around re-running functional and non-functional tests. It is especially done to ensure whether previously developed and tested software still performs the same after a change or not. It can be performed either manually or using automated tests
-  - Re-testing: Re-testing, also known as planned testing, is used for specific bugs after it has been fixed by the developers. Re-testing is performed to check the scenario under the same environmental conditions after detection has been fixed.
+  - **Regression Testing**: Regression testing, also known as generic testing, revolves around re-running functional and non-functional tests. It is especially done to ensure whether previously developed and tested software still performs the same after a change or not. It can be performed either manually or using automated tests
+  - **Re-testing**: Re-testing, also known as planned testing, is used for specific bugs after it has been fixed by the developers. Re-testing is performed to check the scenario under the same environmental conditions after detection has been fixed.
     
  ## 13. What is System testing and Unit Testing? Write the difference between them.
 
-   - System Testing: It is a typical black box testing technique that is performed in a complete and fully integrated system to evaluate the system’s compliance with its specific requirements. It must investigate both functional requirements and non-functional requirements. Generally, it is performed by both testers and developers.
-  - Unit Testing: In unit testing, each component of the software is individually tested. Generally, unit testing is performed by developers. Those systems that have a lot of interdependencies between their modules cannot be tested by unit testing.
+   - **System Testing**: It is a typical black box testing technique that is performed in a complete and fully integrated system to evaluate the system’s compliance with its specific requirements. It must investigate both functional requirements and non-functional requirements. Generally, it is performed by both testers and developers.
+  - **Unit Testing**: In unit testing, each component of the software is individually tested. Generally, unit testing is performed by developers. Those systems that have a lot of interdependencies between their modules cannot be tested by unit testing.
 
 ## 14. What are the types of Integration Testing?
 
 Integration testing includes the following types: 
-  - Big bang testing: It involves integrating all the modules and components at once and then testing them as a whole (single unit). When testing these components together, they are treated as an entity. The integration process will not proceed if all the components of the unit are not completed.
-  - Bottom-Up Testing: This strategy involves testing lower-level modules first, then moving on to higher-level modules. As long as top-level modules have been tested, the process continues. Upon integrating and testing the lower-level modules, the next level of modules will be created.
- - Top-Down Testing: This strategy involves testing software systems from top to bottom according to the control flow. Tests are conducted first on the higher-level modules, followed by tests and integration of the lower-level modules to verify the functionality of the software. Testing is carried out using stubs when some modules are not yet ready
+  - **Big bang testing**: It involves integrating all the modules and components at once and then testing them as a whole (single unit). When testing these components together, they are treated as an entity. The integration process will not proceed if all the components of the unit are not completed.
+  - **Bottom-Up Testing**: This strategy involves testing lower-level modules first, then moving on to higher-level modules. As long as top-level modules have been tested, the process continues. Upon integrating and testing the lower-level modules, the next level of modules will be created.
+ - **Top-Down Testing**: This strategy involves testing software systems from top to bottom according to the control flow. Tests are conducted first on the higher-level modules, followed by tests and integration of the lower-level modules to verify the functionality of the software. Testing is carried out using stubs when some modules are not yet ready
 
 ## 15. Name some of the most popular integration testing tools.
 
@@ -312,15 +312,15 @@ Test Closure: Test closure is basically a document that provides the summary of 
 ## 17. Explain different stages of the defect life cycle.
 
 The defect life cycle consists of the following stages:
-  - New: Potential defect that hasn't been validated.
-  - Assigned: Assigned to a team for resolution, but not yet resolved.
-  - Active: Developers are currently investigating the defect and addressing it. Deferred or Rejected are the two possible outcomes at this stage.
-  - Test: The defect has been fixed and can be tested.
-  - Verified: The defect has been retested and the results have been verified by QA.
-  - Closed: Defect in its final state, which can be closed after retesting by QA or when considered duplicate or not a defect.
-  - Reopened: QA reopens/reactivates a defect when it has not been fixed.
-  - Deferred: A defect that can't be addressed in the current cycle is deferred to a future release.
-  - Rejected: There are three common reasons for rejecting a defect: duplicate, not a defect, and not reproducible.
+  - **New**: Potential defect that hasn't been validated.
+  - **Assigned**: Assigned to a team for resolution, but not yet resolved.
+  - **Active**: Developers are currently investigating the defect and addressing it. Deferred or Rejected are the two possible outcomes at this stage.
+  - **Test**: The defect has been fixed and can be tested.
+  - **Verified**: The defect has been retested and the results have been verified by QA.
+  - **Closed**: Defect in its final state, which can be closed after retesting by QA or when considered duplicate or not a defect.
+  - **Reopened**: QA reopens/reactivates a defect when it has not been fixed.
+  - **Deferred**: A defect that can't be addressed in the current cycle is deferred to a future release.
+  - **Rejected**: There are three common reasons for rejecting a defect: duplicate, not a defect, and not reproducible.
 
 ## 18. Explain Experienced-based testing techniques.
 
@@ -328,8 +328,8 @@ The experience-based testing technique is a type of testing that is based on the
 
 ## 19. Write the difference between smoke testing and sanity testing.
 
-   - Smoke Testing: It is a type of testing performed to ensure that the acute functionalities of the program are working well. It acts as a confirmation of whether the quality assurance team can further proceed with testing or not.  
-   - Sanity Testing: It is an unscripted form of testing performed to ensure that the code changes that are made are working well. It is performed by the test team for some basic tests. This testing focuses on one or a few areas of functionality and is usually narrow and deep
+   - **Smoke Testing**: It is a type of testing performed to ensure that the acute functionalities of the program are working well. It acts as a confirmation of whether the quality assurance team can further proceed with testing or not.  
+   - **Sanity Testing**: It is an unscripted form of testing performed to ensure that the code changes that are made are working well. It is performed by the test team for some basic tests. This testing focuses on one or a few areas of functionality and is usually narrow and deep
     
 ## 20. What do you mean by pesticide paradox?  What you can do to overcome it.
 
