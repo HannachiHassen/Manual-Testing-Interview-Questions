@@ -363,6 +363,8 @@ The defect life cycle consists of the following stages:
 
 The experience-based testing technique is a type of testing that is based on the tester’s experience with testing to understand the essential areas of a system. This type of testing is generally used in a low-risk system. Individuals’ information, abilities, and foundation knowledge are prime supporters of the test conditions and experiments in experienced-based techniques.
 
+![](/README/Experienced-based_testing_techniques.png)
+
 ## 21. Write the difference between smoke testing and sanity testing.
 
    - **Smoke Testing**: It is a type of testing performed to ensure that the acute functionalities of the program are working well. It acts as a confirmation of whether the quality assurance team can further proceed with testing or not.  
