@@ -248,7 +248,34 @@ Data flow testing involves analyzing the flow of data within a program. It is a 
 ## 8. What is the term ‘quality’ mean when testing?
 In general, quality software is usually free of bugs, is delivered on time and on budget, meets most of the requirements and/or expectations, and is easy to maintain. However, 'quality' is a subjective concept. A lot depends on whom the "customer" is as well as the extent to which they are influential in general. For instance, a user may define quality as user-friendliness and bug-free while an accounting department might define quality as profits
 
-## 9. What is the role of documentation in manual testing?
+## 9. What is the difference between Quality Control(QC) and Quality Assurance(QA)
+**Quality Assurance**:
+- QA stands for Quality Assurance. As part of a software development team, a QA ensures that the software is thoroughly tested before being released to the end-user. It ensures that the shipped software is of high quality.
+
+![](/README/Quality_Assurance.png)
+
+- It focuses on improving the software development process and is typically carried out during the development phase. It is possible for testers and quality assurance personnel to be the same person in many software organizations, although the roles may differ depending on the organization's size.
+**Quality Control**: 
+- QC stands for Quality Control. The main goal of this process is to verify that the developed products meet the required standards. 
+![](/README/Quality_Control.png)  
+
+- Software quality-control tests and reviews the functional and non-functional requirements of a software product to ensure its quality. QC activities are typically performed after a product is developed to assess the quality of end products.
+![](/README/QA_vs_QC.png) 
+
+## 10. Explain Monkey Testing and Performance Testing.
+
+**Monkey Testing**: Monkey testing, also known as Random Testing, is a type of software testing technique in which data is generated randomly using a tool or some automated mechanism. This randomly generated input is used to test the system, and the results are analyzed accordingly. Testing of this type does not follow any rules.
+![](/README/Monkey_Testing.png)
+
+**Performance Testing**: It is a type of non-functional software testing technique that is used to determine the system parameters like speed, scalability, and stability under different workload conditions. Its main purpose is to eliminate performance bottlenecks, not to find bugs. Some of the key parameters of performance testing include: 
+ - CPU Utilization
+ - Memory Utilization
+ - QPS/TPS (Transaction per second)
+ - Average load time
+ - System throughput, etc.
+ ![](/README/Performance_Testing.png)
+
+## 11. What is the role of documentation in manual testing?
 
 Effective software testing relies heavily on documentation. Documentation should include details such as requirements specifications, business rules, configurations, designs, test plans, code changes, test cases, bug reports, inspection reports, user manuals, etc. As part of software testing, the following documentation artifacts are commonly applied:
 
@@ -257,13 +284,13 @@ Effective software testing relies heavily on documentation. Documentation should
   - **Test Case**: As the name implies, a test case is a document that contains test data, expected results, preconditions, and postconditions. The purpose of this document is to ensure the software product meets the specific requirements for a specific test scenario. Manual testing involves executing test cases manually by a tester without relying on automated tools. In the process of developing test cases, it is possible to identify loopholes in the specifications.
   - **Traceability Matrix**: This is a document, usually contained in a form table, that illustrates the relationship between requirements and other project artifacts from start to finish. To put it simply, it maps customer requirements to test cases.
 
-## 10. Explain RTM (Requirement Traceability Matrix).
+## 12. Explain RTM (Requirement Traceability Matrix).
 
 The **RTM (Requirements Traceability Matrix)** is defined as a tool used to identify and track the requirements and deliverables of a project. This is accomplished by establishing a thread for each component.  In addition, it manages the overall requirements of the project. There is nothing complicated about this method, and anyone can do it.
 
 RTMs come in many forms. A test matrix, for example, proves that tests were conducted. Additionally, it can be used during the software development process to identify issues and requirements.
 
-## 11. What is the importance of agile testing?
+## 13. What is the importance of agile testing?
 
 The agile testing process involves software testing that adheres to agile software development principles. The software is evaluated from the customer's perspective. This software development practice involves frequent, automated testing of new code and the immediate fixing of defects as soon as they are discovered. Each feature is tested as it is developed. Among its advantages are: 
 
@@ -274,24 +301,24 @@ The agile testing process involves software testing that adheres to agile softwa
   - Highly adaptable and flexible. 
   - Assists developers with releasing software as soon as possible and improves product quality.
 
-## 12. What is the difference between Regression and Retesting?
+## 14. What is the difference between Regression and Retesting?
 
   - **Regression Testing**: Regression testing, also known as generic testing, revolves around re-running functional and non-functional tests. It is especially done to ensure whether previously developed and tested software still performs the same after a change or not. It can be performed either manually or using automated tests
   - **Re-testing**: Re-testing, also known as planned testing, is used for specific bugs after it has been fixed by the developers. Re-testing is performed to check the scenario under the same environmental conditions after detection has been fixed.
     
- ## 13. What is System testing and Unit Testing? Write the difference between them.
+ ## 15. What is System testing and Unit Testing? Write the difference between them.
 
    - **System Testing**: It is a typical black box testing technique that is performed in a complete and fully integrated system to evaluate the system’s compliance with its specific requirements. It must investigate both functional requirements and non-functional requirements. Generally, it is performed by both testers and developers.
   - **Unit Testing**: In unit testing, each component of the software is individually tested. Generally, unit testing is performed by developers. Those systems that have a lot of interdependencies between their modules cannot be tested by unit testing.
 
-## 14. What are the types of Integration Testing?
+## 16. What are the types of Integration Testing?
 
 Integration testing includes the following types: 
   - **Big bang testing**: It involves integrating all the modules and components at once and then testing them as a whole (single unit). When testing these components together, they are treated as an entity. The integration process will not proceed if all the components of the unit are not completed.
   - **Bottom-Up Testing**: This strategy involves testing lower-level modules first, then moving on to higher-level modules. As long as top-level modules have been tested, the process continues. Upon integrating and testing the lower-level modules, the next level of modules will be created.
  - **Top-Down Testing**: This strategy involves testing software systems from top to bottom according to the control flow. Tests are conducted first on the higher-level modules, followed by tests and integration of the lower-level modules to verify the functionality of the software. Testing is carried out using stubs when some modules are not yet ready
 
-## 15. Name some of the most popular integration testing tools.
+## 17. Name some of the most popular integration testing tools.
 
 Among the most commonly used integration testing tools are:
   - DBUnit 
@@ -301,7 +328,7 @@ Among the most commonly used integration testing tools are:
   - JUnit 5 
   - H2 Database, etc.
 
-## 16. What is Test Harness and Test Closure?
+## 18. What is Test Harness and Test Closure?
 
 Test Harness: Test harness, also known as the automated test framework, is a collection of software and test data required to unit test software modules during development. It is mostly used by the developers and helps in the automation and execution of unit test cases. It generally includes two main parts as given below: 
    - Test execution engine 
@@ -309,7 +336,7 @@ Test Harness: Test harness, also known as the automated test framework, is a col
 
 Test Closure: Test closure is basically a document that provides the summary of all the tests that are performed during SDLC. It gives full detailed analysis reports of the bugs that are discovered and removed. It is usually performed prior to the end of the testing process.
 
-## 17. Explain different stages of the defect life cycle.
+## 19. Explain different stages of the defect life cycle.
 
 The defect life cycle consists of the following stages:
   - **New**: Potential defect that hasn't been validated.
@@ -322,16 +349,16 @@ The defect life cycle consists of the following stages:
   - **Deferred**: A defect that can't be addressed in the current cycle is deferred to a future release.
   - **Rejected**: There are three common reasons for rejecting a defect: duplicate, not a defect, and not reproducible.
 
-## 18. Explain Experienced-based testing techniques.
+## 20. Explain Experienced-based testing techniques.
 
 The experience-based testing technique is a type of testing that is based on the tester’s experience with testing to understand the essential areas of a system. This type of testing is generally used in a low-risk system. Individuals’ information, abilities, and foundation knowledge are prime supporters of the test conditions and experiments in experienced-based techniques.
 
-## 19. Write the difference between smoke testing and sanity testing.
+## 21. Write the difference between smoke testing and sanity testing.
 
    - **Smoke Testing**: It is a type of testing performed to ensure that the acute functionalities of the program are working well. It acts as a confirmation of whether the quality assurance team can further proceed with testing or not.  
    - **Sanity Testing**: It is an unscripted form of testing performed to ensure that the code changes that are made are working well. It is performed by the test team for some basic tests. This testing focuses on one or a few areas of functionality and is usually narrow and deep
     
-## 20. What do you mean by pesticide paradox?  What you can do to overcome it.
+## 22. What do you mean by pesticide paradox?  What you can do to overcome it.
 
 The pesticide paradox is basically a phenomenon where the more one tests the software, the more it becomes immune to its tests. To overcome this, testers should always find new strategies, approaches, and test cases, so that they can identify bugs and resolve them. The following methods can be used to prevent the pesticide paradox:
    - Create a new set of test cases for different components of the software.
