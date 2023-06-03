@@ -255,16 +255,20 @@ In general, quality software is usually free of bugs, is delivered on time and o
 ![](/README/Quality_Assurance.png)
 
 - It focuses on improving the software development process and is typically carried out during the development phase. It is possible for testers and quality assurance personnel to be the same person in many software organizations, although the roles may differ depending on the organization's size.
+
 **Quality Control**: 
 - QC stands for Quality Control. The main goal of this process is to verify that the developed products meet the required standards. 
+
 ![](/README/Quality_Control.png)  
 
 - Software quality-control tests and reviews the functional and non-functional requirements of a software product to ensure its quality. QC activities are typically performed after a product is developed to assess the quality of end products.
+
 ![](/README/QA_vs_QC.png) 
 
 ## 10. Explain Monkey Testing and Performance Testing.
 
 **Monkey Testing**: Monkey testing, also known as Random Testing, is a type of software testing technique in which data is generated randomly using a tool or some automated mechanism. This randomly generated input is used to test the system, and the results are analyzed accordingly. Testing of this type does not follow any rules.
+
 ![](/README/Monkey_Testing.png)
 
 **Performance Testing**: It is a type of non-functional software testing technique that is used to determine the system parameters like speed, scalability, and stability under different workload conditions. Its main purpose is to eliminate performance bottlenecks, not to find bugs. Some of the key parameters of performance testing include: 
@@ -273,7 +277,8 @@ In general, quality software is usually free of bugs, is delivered on time and o
  - QPS/TPS (Transaction per second)
  - Average load time
  - System throughput, etc.
- ![](/README/Performance_Testing.png)
+
+![](/README/Performance_Testing.png)
 
 ## 11. What is the role of documentation in manual testing?
 
@@ -316,8 +321,13 @@ The agile testing process involves software testing that adheres to agile softwa
 Integration testing includes the following types: 
   - **Big bang testing**: It involves integrating all the modules and components at once and then testing them as a whole (single unit). When testing these components together, they are treated as an entity. The integration process will not proceed if all the components of the unit are not completed.
   - **Bottom-Up Testing**: This strategy involves testing lower-level modules first, then moving on to higher-level modules. As long as top-level modules have been tested, the process continues. Upon integrating and testing the lower-level modules, the next level of modules will be created.
+ 
+ ![](/README/Bottom-Up_Testing.png)
+ 
  - **Top-Down Testing**: This strategy involves testing software systems from top to bottom according to the control flow. Tests are conducted first on the higher-level modules, followed by tests and integration of the lower-level modules to verify the functionality of the software. Testing is carried out using stubs when some modules are not yet ready
 
+ ![](/README/Top-Down_Testing.png)
+ 
 ## 17. Name some of the most popular integration testing tools.
 
 Among the most commonly used integration testing tools are:
